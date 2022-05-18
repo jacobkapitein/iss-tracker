@@ -14,3 +14,7 @@ I know the code is messy, but it's easy to understand anyway and I want to move 
 - Run `npm install`
 - Run `npm run build`
 - Host on a server (like `python -m http.server`)
+
+## Buidling and serving with Docker
+- Run `docker build -t iss-tracker .`
+- Run `docker run -d -p {external_port}:80 --name iss-tracker-live iss-tracker`
